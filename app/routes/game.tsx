@@ -1,7 +1,7 @@
-import type { MetaArgs } from 'react-router';
-import type { Route } from './+types/game';
+import type { MetaArgs } from "react-router";
+import type { Route } from "./+types/game";
 
-export const gamesData = ['minecraft-server', 'cs2-server'];
+export const gamesData = ["minecraft-server", "cs2-server"];
 
 export function meta({ data: game }: MetaArgs) {
   return [
